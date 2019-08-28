@@ -9,6 +9,7 @@ public class TC001_Login extends ProjectSpecficMethods{
 	@BeforeClass
 	public void setData() {
 		excelFileName="TC001";
+		System.out.println("TC001_Login");
 	}
 	@Test(dataProvider="fetchData")
 	public void runTC001(String username, String password, String companyName, 
